@@ -1,6 +1,5 @@
 package com.capstone.facialbot.ui.login
 
-import LoginViewModel
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,6 +11,7 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.lifecycle.ViewModelProvider
 import com.capstone.facialbot.databinding.ActivityLoginBinding
 import com.capstone.facialbot.ui.register.RegisterActivity
+import com.capstone.facialbot.viewmodel.LoginViewModel
 
 
 class LoginActivity : AppCompatActivity() {
