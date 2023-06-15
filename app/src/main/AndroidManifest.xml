@@ -29,7 +29,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FarmGenius"
+        android:theme="@style/Theme.FacialBot"
         tools:targetApi="31">
         <activity
             android:name=".ui.detection.CameraActivity"
@@ -83,7 +83,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.riyandifirman.farmgenius"
+            android:authorities="com.capstone.facialbol"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

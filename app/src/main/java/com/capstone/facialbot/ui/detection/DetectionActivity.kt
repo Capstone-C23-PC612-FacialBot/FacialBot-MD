@@ -5,8 +5,6 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.BitmapFactory
 import android.net.Uri
-
-
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -18,8 +16,6 @@ import androidx.core.content.ContextCompat
 import com.capstone.facialbot.databinding.ActivityDetectionBinding
 import com.capstone.facialbot.ui.main.MainActivity
 import com.capstone.facialbot.util.uriToFile
-
-
 import java.io.File
 
 class DetectionActivity : AppCompatActivity() {
