@@ -12,14 +12,31 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
         android:gravity="top"
         android:text="@string/welcome"
         android:textAppearance="@style/hello_user"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ringkasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/facialbot_splash_screen"
+        android:textAppearance="@style/ringkasan"
+        android:textStyle="bold"
+        android:translationY="-0.32sp"
+        app:layout_constraintStart_toStartOf="@+id/hello_user"
+        app:layout_constraintTop_toBottomOf="@+id/hello_user" />
 
     <View
         android:id="@+id/rectangle_profile"
@@ -43,21 +60,6 @@
         app:layout_constraintStart_toStartOf="@+id/rectangle_profile"
         app:layout_constraintTop_toTopOf="@+id/rectangle_profile" />
 
-    <TextView
-        android:id="@+id/ringkasan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="1sp"
-        android:text="@string/facialbot_splash_screen"
-        android:textAppearance="@style/ringkasan"
-        android:textStyle="bold"
-        android:translationY="-0.32sp"
-        app:layout_constraintStart_toStartOf="@+id/hello_user"
-        app:layout_constraintTop_toBottomOf="@+id/hello_user" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -66,19 +68,10 @@
         app:layout_constraintBottom_toTopOf="@+id/hasil_deteksi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ringkasan">
+        app:layout_constraintTop_toBottomOf="@+id/ringkasan"
+        app:layout_constraintVertical_bias="0.277">
 
     </ImageView>
-
-    <View
-        android:id="@+id/flower_icon"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/ic_nama"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="342dp" />
 
     <TextView
         android:id="@+id/hasil_deteksi"
@@ -86,7 +79,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="264dp"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="1sp"
         android:text="@string/last_detection"
@@ -94,9 +88,7 @@
         android:textStyle="bold"
         android:translationY="-0.32sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/flower_icon"
-        app:layout_constraintTop_toTopOf="@+id/flower_icon"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/lihat_lebih"
@@ -112,18 +104,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/hasil_deteksi"
         app:layout_constraintVertical_bias="0.888" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_deteksi"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="34dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/hasil_deteksi" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
