@@ -1,4 +1,4 @@
-package com.capstone.facialbot.viewmodel
+package com.capstone.facialbot.vm
 
 import Preferences
 import android.content.Context

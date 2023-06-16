@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".ui.activity.LoginActivity">
 
     <View
         android:id="@+id/login_icon"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/masuk_sekarang"
-        app:startIconDrawable="@drawable/ic_email"
+        app:startIconDrawable="@drawable/email"
         app:startIconTint="#F2A74A"
         tools:ignore="MissingConstraints">
 
@@ -72,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEmail"
-        app:startIconDrawable="@drawable/ic_password"
+        app:startIconDrawable="@drawable/padlock"
         app:startIconTint="#F2A74A">
 
         <com.google.android.material.textfield.TextInputEditText

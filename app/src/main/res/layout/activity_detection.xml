@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.detection.DetectionActivity">
+    tools:context=".ui.activity.DetectionActivity">
 
     <TextView
         android:id="@+id/title_page"
@@ -25,7 +25,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/title_page"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/title_page"
-        app:srcCompat="@drawable/ic_back" />
+        app:srcCompat="@drawable/back_btn" />
 
     <ImageView
         android:id="@+id/iv_result_image"
@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_page"
-        app:srcCompat="@drawable/ic_picture" />
+        app:srcCompat="@drawable/file_manager" />
 
     <TextView
         android:id="@+id/tv_source"
@@ -56,7 +56,7 @@
         android:layout_height="41dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/button_source_gallery"
+        android:background="@drawable/forgalery_btn"
         android:text="@string/galeri"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -71,7 +71,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="28dp"
-        android:background="@drawable/button_source_camera"
+        android:background="@drawable/forcamera_btn"
         android:paddingLeft="40dp"
         android:paddingRight="35dp"
         android:text="@string/kamera"
@@ -90,6 +90,19 @@
         android:enabled="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/confidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text=""
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/detection_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

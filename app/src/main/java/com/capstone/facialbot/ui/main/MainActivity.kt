@@ -7,9 +7,8 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
 import com.capstone.facialbot.databinding.ActivityMainBinding
-import com.capstone.facialbot.ui.detection.DetectionActivity
-import com.capstone.facialbot.ui.history.HistoryActivity
-import com.capstone.facialbot.ui.profile.ProfileActivity
+import com.capstone.facialbot.ui.activity.DetectionActivity
+import com.capstone.facialbot.ui.activity.ProfileActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -42,11 +41,11 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        val historyButton = binding.lihatLebih
-        historyButton.setOnClickListener{
-            val intent = Intent(this@MainActivity, HistoryActivity::class.java)
-            startActivity(intent)
-        }
+//        val historyButton = binding.lihatLebih
+//        historyButton.setOnClickListener{
+//            val intent = Intent(this@MainActivity, HistoryActivity::class.java)
+//            startActivity(intent)
+//        }
 
         val detectionButton = binding.fab
         detectionButton.setOnClickListener{

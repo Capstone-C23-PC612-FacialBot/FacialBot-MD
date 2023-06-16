@@ -39,7 +39,7 @@ class RegisterButton : AppCompatButton {
 
     private fun init(){
         txtColor = ContextCompat.getColor(context, android.R.color.background_light)
-        enabledBackground = ContextCompat.getDrawable(context, R.drawable.register_button) as Drawable
-        disabledBackground = ContextCompat.getDrawable(context, R.drawable.register_button_disabled) as Drawable
+        enabledBackground = ContextCompat.getDrawable(context, R.drawable.for_regis) as Drawable
+        disabledBackground = ContextCompat.getDrawable(context, R.drawable.for_regis_dis) as Drawable
     }
 }

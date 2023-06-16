@@ -39,7 +39,7 @@ class DetectionButton : AppCompatButton {
 
     private fun init(){
         txtColor = ContextCompat.getColor(context, android.R.color.background_light)
-        enabledBackground = ContextCompat.getDrawable(context, R.drawable.button_detection_result_page) as Drawable
-        disabledBackground = ContextCompat.getDrawable(context, R.drawable.button_detection_result_page_disabled) as Drawable
+        enabledBackground = ContextCompat.getDrawable(context, R.drawable.btn_detc_page) as Drawable
+        disabledBackground = ContextCompat.getDrawable(context, R.drawable.btn_detc_dis) as Drawable
     }
 }

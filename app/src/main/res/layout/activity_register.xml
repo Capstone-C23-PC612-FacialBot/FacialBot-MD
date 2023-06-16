@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.register.RegisterActivity">
+    tools:context=".ui.activity.RegisterActivity">
 
     <View
         android:id="@+id/daftar_icon"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/daftar"
-        app:startIconDrawable="@drawable/ic_nama"
+        app:startIconDrawable="@drawable/profile"
         app:startIconTint="#FFF2A74A">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutNama"
-        app:startIconDrawable="@drawable/ic_email"
+        app:startIconDrawable="@drawable/email"
         app:startIconTint="#FFF2A74A">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -100,7 +100,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEmail"
-        app:startIconDrawable="@drawable/ic_password"
+        app:startIconDrawable="@drawable/padlock"
         app:startIconTint="#FFF2A74A">
 
         <com.google.android.material.textfield.TextInputEditText

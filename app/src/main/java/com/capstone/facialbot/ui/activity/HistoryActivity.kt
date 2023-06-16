@@ -1,4 +1,4 @@
-package com.capstone.facialbot.ui.history
+package com.capstone.facialbot.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

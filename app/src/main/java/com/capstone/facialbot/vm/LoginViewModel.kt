@@ -1,4 +1,4 @@
-package com.capstone.facialbot.viewmodel
+package com.capstone.facialbot.vm
 import Preferences
 import android.content.Context
 import android.content.Intent
@@ -8,7 +8,7 @@ import androidx.core.app.ActivityCompat.finishAffinity
 import androidx.lifecycle.ViewModel
 import com.capstone.facialbot.network.ApiConfig
 import com.capstone.facialbot.network.responses.LoginResponse
-import com.capstone.facialbot.ui.login.LoginActivity
+import com.capstone.facialbot.ui.activity.LoginActivity
 import com.capstone.facialbot.ui.main.MainActivity
 import org.json.JSONObject
 import retrofit2.Call

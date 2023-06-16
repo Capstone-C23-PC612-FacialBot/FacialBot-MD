@@ -40,7 +40,7 @@ class LoginButton: AppCompatButton {
 
     private fun init(){
         txtColor = ContextCompat.getColor(context, android.R.color.background_light)
-        enabledBackground = ContextCompat.getDrawable(context, R.drawable.login_button) as Drawable
-        disabledBackground = ContextCompat.getDrawable(context, R.drawable.login_button_disabled) as Drawable
+        enabledBackground = ContextCompat.getDrawable(context, R.drawable.for_login) as Drawable
+        disabledBackground = ContextCompat.getDrawable(context, R.drawable.for_login_dis) as Drawable
     }
 }

@@ -45,7 +45,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="28dp"
-        android:background="@drawable/profile_rectangle"
+        android:background="@drawable/profil_rec2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,7 +54,7 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_alignParentTop="true"
-        android:background="@drawable/ic_nama"
+        android:background="@drawable/profile"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_profile"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_profile"
         app:layout_constraintStart_toStartOf="@+id/rectangle_profile"
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:layout_margin="28dp"
-        android:src="@drawable/ic_detection"
+        android:src="@drawable/skin_image"
         android:backgroundTint="@color/green_500"
         app:tint="@color/white"
         app:fabCustomSize="80dp"

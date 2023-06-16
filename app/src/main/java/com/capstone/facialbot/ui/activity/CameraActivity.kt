@@ -1,4 +1,4 @@
-package com.capstone.facialbot.ui.detection
+package com.capstone.facialbot.ui.activity
 
 import android.content.Intent
 import android.os.Build

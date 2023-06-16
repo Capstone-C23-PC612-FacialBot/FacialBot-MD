@@ -1,4 +1,4 @@
-package com.capstone.facialbot.viewmodel
+package com.capstone.facialbot.vm
 
 import android.content.Context
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModel
 import com.capstone.facialbot.network.ApiConfig
 import com.capstone.facialbot.network.responses.RegisterResponse
-import com.capstone.facialbot.ui.login.LoginActivity
+import com.capstone.facialbot.ui.activity.LoginActivity
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback

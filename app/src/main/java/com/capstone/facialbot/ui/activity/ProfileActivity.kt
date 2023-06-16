@@ -1,4 +1,4 @@
- package com.capstone.facialbot.ui.profile
+ package com.capstone.facialbot.ui.activity
 
 import Preferences
 import android.content.Intent
@@ -11,9 +11,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import com.capstone.facialbot.databinding.ActivityProfileBinding
-import com.capstone.facialbot.ui.login.LoginActivity
 import com.capstone.facialbot.ui.main.MainActivity
-import com.capstone.facialbot.viewmodel.ProfileViewModel
+import com.capstone.facialbot.vm.ProfileViewModel
 
 
  class ProfileActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.capstone.facialbot.ui.login
+package com.capstone.facialbot.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -10,8 +10,7 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
 import androidx.lifecycle.ViewModelProvider
 import com.capstone.facialbot.databinding.ActivityLoginBinding
-import com.capstone.facialbot.ui.register.RegisterActivity
-import com.capstone.facialbot.viewmodel.LoginViewModel
+import com.capstone.facialbot.vm.LoginViewModel
 
 
 class LoginActivity : AppCompatActivity() {

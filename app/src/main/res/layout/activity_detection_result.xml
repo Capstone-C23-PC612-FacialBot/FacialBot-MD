@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.detection.DetectionResultActivity">
+    tools:context=".ui.activity.DetectionResultActivity">
 
     <TextView
         android:id="@+id/title_page"
@@ -38,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_result_title"
-        app:srcCompat="@drawable/ic_picture" />
+        app:srcCompat="@drawable/file_manager" />
 
     <TextView
         android:id="@+id/tv_result_description"
@@ -63,7 +63,7 @@
         android:layout_width="340dp"
         android:layout_height="41dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/button_homepage"
+        android:background="@drawable/home_btn"
         android:text="@string/beranda"
         android:textColor="@color/white"
         android:textSize="16sp"
