@@ -4,7 +4,7 @@
 - Figma
 - Retrofit Library
 
-# Feature
+# Features
 - Login
 - Register
 - Predict Skin Diseae
