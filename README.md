@@ -8,7 +8,7 @@
 - Login
 - Register
 - Predict Skin Disease
-- 
+
 
 # How to Run the Code
 - clone this repository
