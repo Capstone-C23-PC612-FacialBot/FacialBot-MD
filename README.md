@@ -1,10 +1,10 @@
-#Mobile Development
+# Mobile Development
 - Android Studio
 - Kotlin Languange
 - Figma
 - Retrofit Library
 
-#Feature
+# Feature
 - Login
 - Register
 - Predict Skin Diseae
