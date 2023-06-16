@@ -17,27 +17,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/back_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        app:layout_constraintBottom_toBottomOf="@+id/title_page"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/title_page"
-        app:srcCompat="@drawable/back_btn" />
+<!--    <ImageView-->
+<!--        android:id="@+id/back_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="28dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/title_page"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/title_page"-->
+<!--        app:srcCompat="@drawable/back_btn" />-->
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_deteksi"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="34dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_page" />
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rv_deteksi"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginStart="28dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginEnd="28dp"-->
+<!--        android:layout_marginBottom="34dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/title_page" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

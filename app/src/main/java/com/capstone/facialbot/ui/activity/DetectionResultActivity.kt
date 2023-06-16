@@ -17,16 +17,16 @@ class DetectionResultActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
+//
+//        val homeButton = binding.homeButton
+//        homeButton.setOnClickListener {
+//            val intent = Intent(this@DetectionResultActivity, MainActivity::class.java)
+//            startActivity(intent)
+//        }
+//    }
 
-        val homeButton = binding.homeButton
-        homeButton.setOnClickListener {
-            val intent = Intent(this@DetectionResultActivity, MainActivity::class.java)
-            startActivity(intent)
-        }
-    }
-
-    override fun onBackPressed() {
-        val intent = Intent(this@DetectionResultActivity, MainActivity::class.java)
-        startActivity(intent)
-    }
-}
+//    override fun onBackPressed() {
+//        val intent = Intent(this@DetectionResultActivity, MainActivity::class.java)
+//        startActivity(intent)
+//    }
+    }}

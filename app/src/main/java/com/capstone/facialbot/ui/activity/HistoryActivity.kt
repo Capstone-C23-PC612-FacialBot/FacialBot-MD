@@ -18,11 +18,11 @@ class HistoryActivity : AppCompatActivity() {
         binding = ActivityHistoryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Tombol kembali di klik
-        backButton = binding.backButton
-        backButton.setOnClickListener {
-            val intent = Intent(this@HistoryActivity, MainActivity::class.java)
-            startActivity(intent)
-        }
+//        // Tombol kembali di klik
+//        backButton = binding.backButton
+//        backButton.setOnClickListener {
+//            val intent = Intent(this@HistoryActivity, MainActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }
